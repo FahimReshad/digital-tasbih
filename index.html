@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 lg:p-0">
+    <div class="mx-auto my-4 lg:my-20 text-center">
+        <h1 class=" font-extrabold text-4xl lg:text-7xl text-cyan-700 my-ayto mx-auto">Digital <span class="text-lime-900 ">Tasbih</span></h1>
+    </div> 
+    <div class="flex flex-col lg:flex-row gap-6 justify-center">
+        <div class=" shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
+            <h5 class=" ">Subhan Allah</h5>
+            <p id="subhanallah-number" class="text-3xl">0</p>
+            <div class="flex flex-col lg:flex-row gap-6">
+            <button id="subhanallah-increment-button" class="text-base text-white bg-green-500 rounded-lg px-16 py-3">INCREMENT</button>
+            <button id="subhanallah-decrement-button" class="text-base text-white bg-red-500 rounded-lg px-16 py-3">DECREMENT</button>
+            </div>
+        </div>  
+        <div class=" shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
+            <h5 class=" ">Alhamdulillah</h5>
+            <p id="alhamdulillah-number" class="text-3xl">0</p>
+            <div class="flex flex-col lg:flex-row gap-6">
+                <button id="alhamdulillah-increment-button" class="text-base text-white bg-green-500 rounded-lg px-16 py-3">INCREMENT</button>
+            <button id="alhamdulillah-decrement-button" class="text-base text-white bg-red-500 rounded-lg px-16 py-3">DECREMENT</button>
+            </div>
+        </div>
+        <div class=" shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
+            <h5>Allahuakber</h5>
+            <p id="allahuakbar-number" class="text-3xl">0</p>
+            <div class="flex flex-col lg:flex-row gap-6">
+                <button id="allahuakber-increment-button" class="text-base text-white bg-green-500 rounded-lg px-16 py-3">INCREMENT</button>
+            <button id="allahuakbar-decrement-button" class="text-base text-white bg-red-500 rounded-lg px-16 py-3">DECREMENT</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-10">
+        <button id="reset-button" class="text-white font-medium bg-yellow-600 px-6 py-4 rounded-lg">RESET ALL TASBIH</button>
+    </div>
+        
+    <script src="js/tasbih.js"></script>
+</body>
+</html>
