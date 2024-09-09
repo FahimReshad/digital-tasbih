@@ -18,4 +18,4 @@ Color Palette: The color palette is soothing, providing a calm and focused exper
 Likely built with HTML, CSS, and JavaScript, given the lightweight and responsive nature of the app.
 Deployed via GitHub Pages, allowing easy access and sharing.
 
-Live link:  https://fahimreshad.github.io/digital-tasbih/
+Live link:     https://fahimreshad.github.io/digital-tasbih
