@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Tasbih</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2903/2903103.png" type="image/x-icon">
 </head>
 <body class="p-6 lg:p-0">
     <div class="mx-auto my-4 lg:my-20 text-center">
         <h1 class=" font-extrabold text-4xl lg:text-7xl text-cyan-700 my-ayto mx-auto">Digital <span class="text-lime-900 ">Tasbih</span></h1>
+        <p class="text-xl md:text-2xl lg:text-3xl mt-6 font-semibold text-lime-700">Effortless prayer counting at your fingertips</p>
     </div> 
     <div class="flex flex-col lg:flex-row gap-6 justify-center">
-        <div class=" shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
+        <div class="rounded-lg shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
             <h5 class=" ">Subhan Allah</h5>
             <p id="subhanallah-number" class="text-3xl">0</p>
             <div class="flex flex-col lg:flex-row gap-6">
@@ -19,7 +21,7 @@
             <button id="subhanallah-decrement-button" class="text-base text-white bg-red-500 rounded-lg px-16 py-3">DECREMENT</button>
             </div>
         </div>  
-        <div class=" shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
+        <div class="rounded-lg shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
             <h5 class=" ">Alhamdulillah</h5>
             <p id="alhamdulillah-number" class="text-3xl">0</p>
             <div class="flex flex-col lg:flex-row gap-6">
@@ -27,7 +29,7 @@
             <button id="alhamdulillah-decrement-button" class="text-base text-white bg-red-500 rounded-lg px-16 py-3">DECREMENT</button>
             </div>
         </div>
-        <div class=" shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
+        <div class="rounded-lg shadow-xl text-center text-2xl font-medium pt-14 pb-6 space-y-10 px-6 lg:p">
             <h5>Allahuakber</h5>
             <p id="allahuakbar-number" class="text-3xl">0</p>
             <div class="flex flex-col lg:flex-row gap-6">
@@ -38,7 +40,7 @@
     </div>
 
     <div class="text-center mt-10">
-        <button id="reset-button" class="text-white font-medium bg-yellow-600 px-6 py-4 rounded-lg">RESET ALL TASBIH</button>
+        <button id="reset-button" class="text-white font-bold bg-lime-900 px-6 py-4 rounded-lg">RESET ALL TASBIH</button>
     </div>
         
     <script src="js/tasbih.js"></script>
